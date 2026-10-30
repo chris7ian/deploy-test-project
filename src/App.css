@@ -1,0 +1,19 @@
+.app {
+  max-width: 600px;
+  margin: 15vh auto;
+  padding: 0 16px;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+.app button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+.meta {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
