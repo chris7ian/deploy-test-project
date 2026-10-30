@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: react-app
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+    envVars:
+      - key: PORT
+        value: "80"
+      - key: VITE_APP_NAME
+        value: My React App
+      - key: VITE_API_BASE_URL
+        sync: false

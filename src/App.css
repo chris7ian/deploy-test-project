@@ -17,3 +17,12 @@
   font-size: 0.85rem;
   opacity: 0.6;
 }
+.nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.nav a.active {
+  font-weight: bold;
+}
